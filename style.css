@@ -1,0 +1,123 @@
+body{
+    background-color:burlywood;
+}
+
+h1{
+    display: inline-block;padding: 10px;border: 5px solid;border-radius: 10px;
+}
+.btn1{
+    padding: 5px;background-color: black;color: aqua;font-size:medium;border-radius: 15px;
+    cursor: pointer;
+}
+.one{
+    border: 10px solid;padding: 15px;position: fixed;background-color:cadetblue;border-radius: 10px;
+}
+
+.parent{
+    border: 5px solid;width:250px;height:300px;border-radius: 10px;
+}
+
+.child1{
+    border: 5px solid;width:auto;height:150px;padding: 5px;border-radius:15px;border-color: crimson;
+}
+
+.child2{
+    border: 5px solid;width:auto;height:150px;padding: 5px;border-radius:15px;border-color: crimson;
+}
+
+.child3{
+    border: 5px solid;width:auto;height:150px;padding: 5px;border-radius:15px;border-color: crimson;
+}
+
+.child4{
+    border: 5px solid;width:auto;height:150px;padding: 5px;border-radius:15px;border-color: crimson;
+}
+
+.img1{
+    height:135px;width:230px;
+}
+
+.img2{
+    height:150px;width:230px;
+}
+
+.img3{
+    height:150px;width:230px;
+}
+
+.img4{
+    height:150px;width:230px;
+}
+
+
+
+
+
+
+.griddiv{
+    display: grid;padding-left: 250px;padding-top: 200px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(9,1fr);gap: 10px;
+}
+
+
+:hover.child1{
+    border-color: aqua;
+}
+:hover.child2{
+    border-color:darkorange;
+}
+:hover.child3{
+    border-color:chartreuse;
+}
+:hover.child4{
+    border-color:blue;
+}
+
+.btn2{
+    padding: 10px;background-color: black;color: chartreuse;border: 5px solid;border-color: aqua;border-radius: 10px;
+    /* cursor: pointer; */
+}
+:hover.btn2{
+    border-color: black;color: blue;background-color: aqua;font-size:medium;
+}
+
+
+.portfolio{
+    display: flex;justify-content: space-evenly;
+}
+
+
+
+
+.btn3{
+    border: 5px solid;border-radius: 10px;padding: 5px;background-color:burlywood;cursor: pointer;border-color: chocolate;
+}
+
+:hover.btn3{
+    background-color: black;border-color: brown;color: white;
+}
+
+.ft{
+    border: 15px solid;height: 200px;padding: 10px;border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
